@@ -1,0 +1,290 @@
+{
+  "input": {
+    "path": "C:\\XL\\Project\\07_ExcelSkills\\data\\store_ops_testdata_50rows.xlsx",
+    "sheet": "(first)",
+    "rows": 50,
+    "columns": 18
+  },
+  "missing": {
+    "total_cells": 900,
+    "total_missing": 4,
+    "total_missing_pct": 0.0044444444444444444,
+    "by_column": [
+      {
+        "column": "order_id",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "order_date",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "payment_date",
+        "missing": 1,
+        "missing_pct": 0.02
+      },
+      {
+        "column": "store_id",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "store_name",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "product_id",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "product_name",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "category",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "unit_price",
+        "missing": 1,
+        "missing_pct": 0.02
+      },
+      {
+        "column": "quantity",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "order_amount",
+        "missing": 1,
+        "missing_pct": 0.02
+      },
+      {
+        "column": "customer_id",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "customer_type",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "city",
+        "missing": 1,
+        "missing_pct": 0.02
+      },
+      {
+        "column": "country",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "order_status",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "refund_amount",
+        "missing": 0,
+        "missing_pct": 0.0
+      },
+      {
+        "column": "shipping_fee",
+        "missing": 0,
+        "missing_pct": 0.0
+      }
+    ]
+  },
+  "duplicates": {
+    "duplicate_rows": 0,
+    "duplicate_rows_pct": 0.0,
+    "by_column": [
+      {
+        "column": "order_id",
+        "duplicate_values": 1,
+        "duplicate_values_pct": 0.02
+      },
+      {
+        "column": "order_date",
+        "duplicate_values": 17,
+        "duplicate_values_pct": 0.34
+      },
+      {
+        "column": "payment_date",
+        "duplicate_values": 14,
+        "duplicate_values_pct": 0.2857142857142857
+      },
+      {
+        "column": "store_id",
+        "duplicate_values": 47,
+        "duplicate_values_pct": 0.94
+      },
+      {
+        "column": "store_name",
+        "duplicate_values": 47,
+        "duplicate_values_pct": 0.94
+      },
+      {
+        "column": "product_id",
+        "duplicate_values": 40,
+        "duplicate_values_pct": 0.8
+      },
+      {
+        "column": "product_name",
+        "duplicate_values": 40,
+        "duplicate_values_pct": 0.8
+      },
+      {
+        "column": "category",
+        "duplicate_values": 44,
+        "duplicate_values_pct": 0.88
+      },
+      {
+        "column": "unit_price",
+        "duplicate_values": 37,
+        "duplicate_values_pct": 0.7551020408163265
+      },
+      {
+        "column": "quantity",
+        "duplicate_values": 45,
+        "duplicate_values_pct": 0.9
+      },
+      {
+        "column": "order_amount",
+        "duplicate_values": 19,
+        "duplicate_values_pct": 0.3877551020408163
+      },
+      {
+        "column": "customer_id",
+        "duplicate_values": 0,
+        "duplicate_values_pct": 0.0
+      },
+      {
+        "column": "customer_type",
+        "duplicate_values": 47,
+        "duplicate_values_pct": 0.94
+      },
+      {
+        "column": "city",
+        "duplicate_values": 38,
+        "duplicate_values_pct": 0.7755102040816326
+      },
+      {
+        "column": "country",
+        "duplicate_values": 48,
+        "duplicate_values_pct": 0.96
+      },
+      {
+        "column": "order_status",
+        "duplicate_values": 45,
+        "duplicate_values_pct": 0.9
+      },
+      {
+        "column": "refund_amount",
+        "duplicate_values": 42,
+        "duplicate_values_pct": 0.84
+      },
+      {
+        "column": "shipping_fee",
+        "duplicate_values": 44,
+        "duplicate_values_pct": 0.88
+      }
+    ]
+  },
+  "type_corrections": [
+    {
+      "column": "order_date",
+      "from": "object",
+      "to": "datetime64",
+      "parse_rate": 0.98
+    },
+    {
+      "column": "payment_date",
+      "from": "object",
+      "to": "datetime64",
+      "parse_rate": 1.0
+    },
+    {
+      "column": "unit_price",
+      "from": "object",
+      "to": "numeric",
+      "parse_rate": 0.9795918367346939
+    },
+    {
+      "column": "quantity",
+      "from": "int64",
+      "to": "numeric",
+      "parse_rate": 1.0
+    },
+    {
+      "column": "order_amount",
+      "from": "object",
+      "to": "numeric",
+      "parse_rate": 1.0
+    },
+    {
+      "column": "refund_amount",
+      "from": "float64",
+      "to": "numeric",
+      "parse_rate": 1.0
+    },
+    {
+      "column": "shipping_fee",
+      "from": "float64",
+      "to": "numeric",
+      "parse_rate": 1.0
+    }
+  ],
+  "outliers": [
+    {
+      "column": "unit_price",
+      "count": 7,
+      "pct": 0.15555555555555556,
+      "lower": -13.450000000000001,
+      "upper": 38.150000000000006
+    },
+    {
+      "column": "quantity",
+      "count": 3,
+      "pct": 0.06666666666666667,
+      "lower": -0.5,
+      "upper": 3.5
+    },
+    {
+      "column": "order_amount",
+      "count": 2,
+      "pct": 0.044444444444444446,
+      "lower": -38.900000000000006,
+      "upper": 83.5
+    },
+    {
+      "column": "refund_amount",
+      "count": 7,
+      "pct": 0.15555555555555556,
+      "lower": 0.0,
+      "upper": 0.0
+    },
+    {
+      "column": "shipping_fee",
+      "count": 0,
+      "pct": 0.0,
+      "lower": -4.5,
+      "upper": 7.5
+    }
+  ],
+  "output": {
+    "cleaned_path": "C:\\XL\\Project\\07_ExcelSkills\\output\\cleaned.xlsx",
+    "report_md": "C:\\XL\\Project\\07_ExcelSkills\\output\\data_quality_report.md",
+    "report_json": "C:\\XL\\Project\\07_ExcelSkills\\output\\data_quality_report.json",
+    "cleaned_rows": 45,
+    "dropped_missing_rows": 5
+  },
+  "generated_at": "2026-01-29T16:12:35.413126Z"
+}
